@@ -33,7 +33,7 @@ class UsersSeeder extends Seeder
             ]
     ])->each(function ($user) {
         DB::table('users')->insert($user);
-        
+
 
     });
     }
